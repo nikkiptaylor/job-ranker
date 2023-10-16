@@ -1,0 +1,90 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.input-box-container {
+  display: flex;
+  align-items: center;
+}
+
+.input-box {
+  font-size: 14px;
+  padding: 8px;
+  border: 2px solid #50c878;
+  border-radius: 4px;
+  width: 200px;
+  margin-right: 8px;
+}
+
+.add-button {
+  background-color: #3c9d69;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.add-button:hover {
+  background-color: #2b7852;
+}
+
+.input-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 8px;
+}
+
+.input-list {
+  display: flex;
+  flex-wrap: wrap; /* Wrap items to the next row when needed */
+  margin-top: 8px;
+}
+
+.input-instructions {
+  font-size: 14px;
+  margin-right: 8px; /* Add spacing between input list items */
+  color: #124b25;
+}
+
+.input-list-item {
+  margin-right: 8px; /* Add spacing between input list items */
+  margin-bottom: 4px;
+  font-size: 14px;
+  background-color: #a8d2ee;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-blend-mode: color-burn;
+}
+
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.classify-button {
+  margin-top: 16px; /* Reduced spacing */
+  font-size: 1.5rem;
+  padding: 12px 24px;
+  background-color: #50c878; /* Emerald green color */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.classify-button:hover {
+  background-color: #3c9d69; /* Slightly darker shade on hover */
+}
